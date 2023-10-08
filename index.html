@@ -1,10 +1,130 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Website</title>
+        <title>Eco-friendly Art Supplies</title>
         <link rel = "stylesheet" href="css/style.css">
     </head>
     <body>
-        <p>Hello there! General Kenobi, you are a bold one, kill him!</p>
+        <nav>
+            <a href = "#">
+                <img src = "images/brush.png" alt = "logo" class = "logo">
+            </a>
+            <div class = "links">
+                <a href = "#header">Over ons</a>
+                <a href = "#producten">Producten</a>
+                <a href = "#nieuwsbrief">Nieuwsbrief</a>
+                <a href = "#footer">Footer</a>
+            </div>
+
+        </nav>
+        <header>
+            <div class = "header-text">
+                <h1 id = "header">Eco-friendly Art Supplies</h1>
+                <p>
+                    Eco-friendly Art Supplies probeert enorm zijn fictieve best te doen om verf, stiften en andere artistieke spullen te leveren met zo min
+                    mogelijk kosten op de natuur. Hieronder volgt onze nieuwsbrief met allerlei updates over onze nieuwe spullen en onze vooruitgang op het
+                    groen houden van de aarde!
+                    <br><br>
+                    Onze producten zijn extensief getest, ze zijn erg duurzaam, veilig om te gebruiken voor zowel volwassenen als kinderen.
+                    Onze verf is gemaakt door plantaardige producten.
+                </p>
+            </div>
+        </header>
+        <div class = "main-container">
+            
+            <main>
+                <h2 id = "producten">Producten</h2>
+                <div class = "producten-flex">
+                    
+                    <div class = "product">
+                        
+                        <img src = "images/brush.png" alt = "product icoon" class = "product-icon">
+                        
+                        <div>
+                            <h3>Hoge kwaliteit groene kwasten</h3>
+                            <p>Deze kwasten komen in allerlei verschillende maten; klein voor fijnere details, groot om sneller de canvas te vullen. Er zijn geen dierlijke producten of beschadigende
+                                producten gebruikt voor deze kwasten.
+                            </p>
+                            <button class = "product-button">€19.99</button>
+                        </div>
+
+                    </div>
+
+                    <div class = "product">
+                        
+                        <img src = "images/tube.png" alt = "product icoon" class = "product-icon">
+                        
+                        <div>
+                            <h3>Goede natuurlijke verf</h3>
+                            <p>Deze verf is perfect om te schilderen, blijft goed zitten en kan tegen een krasje. Dit pakket bevat rode, groene, gele en blauwe verf.
+                                De verf mengt goed, dus de pakketten die u krijgt zijn groot voor het mengen.
+                            </p>
+                            <button class = "product-button">€24.99</button>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class = "product">
+                        
+                        <img src = "images/paint_bucket.png" alt = "product icoon" class = "product-icon">
+                        
+                        <div>
+                            <h3>Prachtig muurverf</h3>
+                            <p>Deze verf is perfect voor je muren. Blijft goed zitten en kan goed tegen een kras. Let wel op bij water, het lost sneller op dan normale
+                                verf!
+                            </p>
+                            <button class = "product-button">€24.99</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+                <h2 id = "nieuwsbrief">Nieuwsbrief</h2>
+                <div class = "nieuwsbrief">
+                    <p>Wil jij altijd op de hoogte zijn van nieuwe producten of onze vooruitgang naar een groenere aarde? Meldt je dan aan voor onze digitale nieuwsbrief!</p>
+                    <form>
+
+                        <div class = "form-input">
+                            <label for="first-name">Voornaam</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        
+                        <div class = "form-input">
+                            <label for="last-name">Achternaam</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+
+                        <div class = "email-form-input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+
+                        
+                        <div class = "checkbox-form-input">
+                            <input type = "checkbox" name = "akkoord" id = "akkoord">
+                            <label for = "akkoord">Ik ga akkoord met de voorwaarden</label>
+                        </div>
+                            
+                        
+
+                        <button type="submit">Versturen</button>
+                    </form>
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div class = "copyright">
+                <img src = "images/brush.png" alt = "logo" class = "copyright-logo">
+                <p id = "footer">Copyright 2023 Eco-friendly Art Supplies</p>
+            </div>
+            <div class = "footer-links">
+                <a href = "#">Privacyverklaring</a>
+                <a href = "#">Algemene voorwaarden</a>
+                <a href = "#">Cookiebeleid</a>
+                <a href = "#">Contact</a>
+            </div>
+        </footer>
     </body>
 </html>
